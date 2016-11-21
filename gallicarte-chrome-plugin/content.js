@@ -29,7 +29,7 @@ function addMapButton(){
       } else {
 
 
-        $('#topPaginationBarArea').find('.dropdown-menu').append('<li> <a href="#" class="display-map"><span class="pictos current-mode-affichage icon-carte"></span><span class="desc-mode">carte</span></a></li>');
+        $('#topPaginationBarArea').find('.dropdown-menu').first().append('<li> <a href="#" class="display-map"><span class="pictos current-mode-affichage icon-carte"></span><span class="desc-mode">carte</span></a></li>');
         displayMap();
       }
     }, 50);
